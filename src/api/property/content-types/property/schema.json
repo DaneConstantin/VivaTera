@@ -1,0 +1,69 @@
+{
+  "kind": "collectionType",
+  "collectionName": "properties",
+  "info": {
+    "singularName": "property",
+    "pluralName": "properties",
+    "displayName": "Properties",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "photos": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "price": {
+      "type": "float",
+      "required": true,
+      "default": 0
+    },
+    "listedAt": {
+      "type": "date"
+    },
+    "PropertyType": {
+      "type": "enumeration",
+      "enum": [
+        "House",
+        "Villa",
+        "Apartment",
+        "Studio",
+        "Terrain",
+        "Penthouse"
+      ]
+    },
+    "bedrooms": {
+      "type": "integer"
+    },
+    "bathrooms": {
+      "type": "integer"
+    },
+    "m2": {
+      "type": "integer"
+    },
+    "YearBuilt": {
+      "type": "date"
+    },
+    "description": {
+      "type": "text"
+    },
+    "slug": {
+      "type": "string",
+      "unique": true,
+      "required": true
+    }
+  }
+}
