@@ -9,9 +9,6 @@ module.exports = [
   'strapi::session',
   'strapi::favicon',
   'strapi::public',
-];
-
-module.exports = [
   // ...
   {
     name: 'strapi::cors',
