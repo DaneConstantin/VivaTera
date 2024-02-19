@@ -35,3 +35,17 @@ module.exports = [
   'strapi::favicon',
   'strapi::public',
 ];
+
+module.exports = [
+  // ...
+  {
+    name: 'strapi::cors',
+    config: {
+      origin: ['https://rocky-plains-73024-c8b58e5e4370.herokuapp.com/',],
+      methods: ['GET', 'POST', 'PUT', 'PATCH', 'DELETE', 'HEAD', 'OPTIONS'],
+      headers: ['Content-Type', 'Authorization', 'Origin', 'Accept'],
+      keepHeaderOnError: true,
+    },
+  },
+  // ...
+]
