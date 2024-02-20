@@ -7,5 +7,7 @@ It's built to efficiently manage and serve data for the frontend of the applicat
 ## Screenshots
 
 ### `dashboard`
+![Strapi Back-end](https://github.com/DaneConstantin/VivaTerra-backend/assets/145013631/bda2b615-83e5-4435-9c2f-c54a2440cccc)
 
 ### `Content types page`
+![Strapi Back-content-types](https://github.com/DaneConstantin/VivaTerra-backend/assets/145013631/5d0f7267-169e-4149-9a74-dade220186a0)
