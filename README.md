@@ -7,3 +7,5 @@ It's built to efficiently manage and serve data for the frontend of the applicat
 ## Screenshots
 
 ### `dashboard`
+
+### `Content types page`
