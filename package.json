@@ -1,8 +1,8 @@
 {
   "name": "vivatera",
   "private": true,
-  "version": "0.1.0",
-  "description": "A Strapi application",
+  "version": "0.2.0",
+  "description": "Strapi back-end for vivatera",
   "scripts": {
     "develop": "strapi develop",
     "start": "strapi start",
@@ -25,7 +25,7 @@
     "styled-components": "5.3.3"
   },
   "author": {
-    "name": "A Strapi developer"
+    "name": "DCoder - MadeUI"
   },
   "strapi": {
     "uuid": "24d8ef32-b107-462c-9a3a-6a34fce9ff59"
